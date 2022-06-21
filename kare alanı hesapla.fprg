@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-10 09:37:01 &#214;S"/>
+        <attribute name="created" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDswODoxNjo1OSDDllM7MjI5NQ=="/>
+        <attribute name="edited" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDswOTozNzowMSDDllM7MTsyMzk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar, alan" type="Integer" array="False" size=""/>
+            <output expression="&quot;Karenin kenar uzunlu&#287;unu giriniz&quot;" newline="True"/>
+            <input variable="kenar"/>
+            <assign variable="alan" expression="kenar*kenar"/>
+            <output expression="&quot;Alan= &quot; &amp; alan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

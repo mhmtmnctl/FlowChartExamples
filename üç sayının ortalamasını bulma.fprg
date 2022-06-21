@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-10 09:51:30 &#214;S"/>
+        <attribute name="created" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDswOTozNzowMyDDllM7MjI4OA=="/>
+        <attribute name="edited" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDswOTo1MTozMCDDllM7MTsyMzky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, s3, ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;Birinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;&#304;kinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="s2"/>
+            <output expression="&quot;&#220;&#231;&#252;nc&#252; say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="s3"/>
+            <assign variable="ortalama" expression="(s1+s2+s3)/3"/>
+            <output expression="&quot;Ortalama= &quot; &amp; ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

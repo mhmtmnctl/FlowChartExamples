@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-10 11:20:40 &#214;S"/>
+        <attribute name="created" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDsxMDo1MDo1MiDDllM7MjI3OQ=="/>
+        <attribute name="edited" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDsxMToyMDo0MCDDllM7MTsyMzgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="puan, ortalama, i" type="Real" array="False" size=""/>
+            <assign variable="ortalama" expression="0"/>
+            <for variable="i" start="1" end="20" direction="inc" step="1">
+                <output expression="i &amp;  &quot;. &#246;&#287;rencinin notunu giriniz&quot;" newline="True"/>
+                <input variable="puan"/>
+                <assign variable="ortalama" expression="ortalama+puan"/>
+            </for>
+            <output expression="&quot;S&#305;n&#305;f ortalamas&#305;:&quot; &amp; ortalama" newline="True"/>
+            <assign variable="ortalama" expression="ortalama/20"/>
+        </body>
+    </function>
+</flowgorithm>

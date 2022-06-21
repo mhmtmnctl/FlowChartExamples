@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-10 11:32:24 &#214;S"/>
+        <attribute name="created" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDsxMToyMDo0NSDDllM7MjI3OQ=="/>
+        <attribute name="edited" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDsxMTozMjoyNCDDllM7MTsyMzg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, f, i" type="Integer" array="False" size=""/>
+            <assign variable="f" expression="1"/>
+            <output expression="&quot;Say&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="sayi" end="1" direction="dec" step="1">
+                <assign variable="f" expression="f*i"/>
+            </for>
+            <output expression="&quot;Sonu&#231;: &quot; &amp; f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

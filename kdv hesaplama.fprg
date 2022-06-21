@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="emin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-10 10:38:28 &#214;S"/>
+        <attribute name="created" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDswOTo1MTozMyDDllM7MjI4Nw=="/>
+        <attribute name="edited" value="ZW1pbjtFTUlOUEM7MjAyMi0wNi0xMDsxMDozODoyOCDDllM7MTsyMzk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fiyat, sonfiyat" type="Real" array="False" size=""/>
+            <output expression="&quot;Fiyat&#305; giriniz&quot;" newline="True"/>
+            <input variable="fiyat"/>
+            <if expression="fiyat&lt;=0">
+                <then>
+                    <output expression="&quot;L&#252;tfen 0 dan b&#252;y&#252;k bir say&#305; giriniz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="sonfiyat" expression="fiyat+fiyat*18/100"/>
+                    <output expression="&quot;KDV li fiyat = &quot; &amp; sonfiyat" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
